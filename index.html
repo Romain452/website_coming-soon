@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coming Soon</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 150px; /* Set the desired width for your logo */
+            height: auto;
+            margin-right: 10px; /* Optional: Add some spacing between the logo and text */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="Your Logo">
+        
+    </a>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <img src="images/curve.png" class="wave">
+    <div class="contentBx">
+        <h2>En construction</h2>
+        <p>Lunafy est un hébergeur principalement de site web, bot discord. Il permet aux personnes ayant peu de budget de créer leurs projets. L'infrastructure compte s'agrandir dans le futur avec des offres games, VPS..</p>
+        <div class="countdown">
+            <!-- Countdown timer content goes here (if applicable) -->
+        </div>
+        <a href="https://discord.gg/sTUR872j2U">Serveur Discord</a>
+    </div>
+    <div class="imgBx">
+        <img src="images/man.png">
+    </div>
+    <ul class="sci">
+
+    </ul>
+</section>
+
+<div class="newsletter">
+    <h2>Reste informé !</h2>
+    <p>Soit notifié au lancement</p>
+    <div class="inputBox">
+        <form>
+            <input type="email" name="" required="" placeholder="Enter Email Address">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <img src="images/close.png" class="close" onclick="toggle();">
+</div>
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="79075132-8f10-48bc-97d0-4b47bf8ff59d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+<script type="text/javascript">
+    function toggle(){
+        var newsletter = document.querySelector('.newsletter');
+        newsletter.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
